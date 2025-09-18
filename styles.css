@@ -286,6 +286,16 @@ section {
     background: var(--primary-gradient);
     border-radius: 2px;
 }
+.navbar-nav {
+  flex: 1;                /* take full available width */
+  justify-content: space-between; /* spread items evenly */
+}
+
+.navbar-nav .nav-link {
+  font-size: 14px;        /* restore font size */
+  white-space: nowrap;    /* keep items on one line */
+}
+
 
 /* About Section */
 .about-content {
