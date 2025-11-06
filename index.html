@@ -55,57 +55,66 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero-section">
-        <div class="hero-background"></div>
-        <div class="hero-overlay"></div>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-10 text-center text-white">
-                    <div class="hero-content">
-                        <h1 class="hero-college-name">THIAGARAJAR COLLEGE OF ENGINEERING</h1>
-                        <p class="hero-subtitle">(A GOVT. AIDED AUTONOMOUS INSTITUTION, AFFILIATED TO ANNA UNIVERSITY)</p>
-                        <p class="hero-location">MADURAI - 625015</p>
-                        
-                        <div class="conference-main-title">
-                            <h2 class="main-title">2nd National Level Research Conclave</h2>
-                            <h3 class="subtitle">on Digital Transformation and Sustainable Innovation in Engineering and Science</h3>
-                        </div>
+<section id="home" class="hero-section">
+    <div class="hero-background"></div>
+    <div class="hero-overlay"></div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 text-center text-white">
+                <div class="hero-content">
+                    <h1 class="hero-college-name">THIAGARAJAR COLLEGE OF ENGINEERING</h1>
+                    <p class="hero-subtitle">(A GOVT. AIDED AUTONOMOUS INSTITUTION, AFFILIATED TO ANNA UNIVERSITY)</p>
+                    <p class="hero-location">MADURAI - 625015</p>
 
-                        <div class="event-details">
-                            <div class="event-date">
-                                <i class="bi bi-calendar-event"></i>
-                                <span>26 - 27th March, 2026</span>
-                            </div>
-                            <div class="event-location">
-                                <i class="bi bi-geo-alt"></i>
-                                <span>TCE, Thiruparankundram, Madurai</span>
-                            </div>
-                        </div>
+                    <div class="conference-main-title">
+                        <h2 class="main-title">2nd National Level Research Conclave</h2>
+                        <h3 class="subtitle">on Digital Transformation and Sustainable Innovation in Engineering and Science</h3>
+                    </div>
 
-                        <div class="countdown-timer">
-                            <div class="countdown-item">
+                    <!-- 🔶 Date Extended Banner -->
+<div class="date-extended-banner mt-4 mb-4 text-center">
+    <span class="badge bg-warning text-dark px-4 py-3" 
+          style="font-size: 1.5rem; font-weight: 700; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.2);">
+        📢 Paper Submission Date Extended to 30th November 2025
+    </span>
+</div>
+
+
+                    <div class="event-details">
+                        <div class="event-date">
+                            <i class="bi bi-calendar-event"></i>
+                            <span>26 - 27th March, 2026</span>
+                        </div>
+                        <div class="event-location">
+                            <i class="bi bi-geo-alt"></i>
+                            <span>TCE, Thiruparankundram, Madurai</span>
+                        </div>
+                    </div>
+
+                    <div class="countdown-timer">
+                        <div class="countdown-item">
                             <div id="days" class="countdown-number">0</div>
                             <div class="countdown-label">days</div>
-                            </div>
-                            <div class="countdown-item">
+                        </div>
+                        <div class="countdown-item">
                             <div id="hours" class="countdown-number">0</div>
                             <div class="countdown-label">hours</div>
-                            </div>
-                            <div class="countdown-item">
+                        </div>
+                        <div class="countdown-item">
                             <div id="minutes" class="countdown-number">0</div>
                             <div class="countdown-label">minutes</div>
-                            </div>
-                            <div class="countdown-item">
+                        </div>
+                        <div class="countdown-item">
                             <div id="seconds" class="countdown-number">0</div>
                             <div class="countdown-label">seconds</div>
-                            </div>
                         </div>
+                    </div>
 
-                        <script>
-                            // Target Date: 26 March 2026, 00:00:00
-                            var countDownDate = new Date("2026-03-26 12:00:00").getTime();
+                    <script>
+                        // Target Date: 26 March 2026, 00:00:00
+                        var countDownDate = new Date("2026-03-26 12:00:00").getTime();
 
-                            var x = setInterval(function() {
+                        var x = setInterval(function() {
                             var now = new Date().getTime();
                             var distance = countDownDate - now;
 
@@ -123,14 +132,14 @@
                                 clearInterval(x);
                                 document.querySelector(".countdown-timer").innerHTML = "EXPIRED";
                             }
-                            }, 1000);
-                        </script>
+                        }, 1000);
+                    </script>
 
                 </div>
             </div>
-        </div>      
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- About TCE Section -->
     <section id="about" class="py-5">
@@ -269,81 +278,165 @@
     <div class="row justify-content-center">
       <!-- Speaker 1 -->
       <div class="col-md-6 col-lg-4">
-        <div class="speaker-card text-center">
-          <h5>Hariharaputhiran H</h5>
-          <h6>Chief Sales Manager – South India</h6>
-          <h7>Tata Steel Ltd</h7>
-          <p>CIVIL Department</p>
+        <div class="speaker-card text-center p-4 shadow-sm rounded">
+          <img src="attached_assets\white.png" 
+               alt="Mr Hariharaputhiran H" 
+               class="img-fluid rounded-circle mb-3"
+               style="width:160px; height:160px; object-fit:cover;">
+          <h5 class="fw-bold mb-1">Mr Hariharaputhiran H</h5>
+          <h6 class="text-muted mb-1">Chief Sales Manager – South India</h6>
+          <p class="text-secondary mb-0">Tata Steel Ltd</p>
         </div>
       </div>
 
       <!-- Speaker 2 -->
-      <div class="col-md-6 col-lg-4">
-        <div class="speaker-card text-center">
-          <h5>Meenakshi S</h5>
-          <h6>Head, NCUC Chennai</h6>
-          <h7>Nokia Chennai University Connect</h7>
-          <p>ECE Department</p>
-        </div>
-      </div>
+<div class="col-md-6 col-lg-4">
+  <div class="speaker-card text-center p-4 shadow-sm rounded">
+    <img src="attached_assets\meenakshi.png" 
+         alt="Ms Meenakshi S" 
+         class="img-fluid rounded-circle mb-3"
+         style="width:160px; height:160px; object-fit:cover;">
+    <h5 class="fw-bold mb-1">Ms Meenakshi S</h5>
+    <h6 class="text-muted mb-1">Head, NCUC Chennai</h6>
+    <p class="text-secondary mb-0">Nokia Chennai University Connect</p>
+  </div>
+</div>
+
 
       <!-- Speaker 3 -->
-      <div class="col-md-6 col-lg-4">
-        <div class="speaker-card text-center">
-          <h5>Karan Bajaj</h5>
-          <h6>Founder</h6>
-          <h7>Stealth AI Startup, USA</h7>
-          <p>CSE Department</p>
-        </div>
-      </div>
+<div class="col-md-6 col-lg-4">
+  <div class="speaker-card text-center p-4 shadow-sm rounded">
+    <img src="attached_assets/karanbajaj.jpg" 
+         alt="Mr Karan Bajaj" 
+         class="img-fluid rounded-circle mb-3"
+         style="width:160px; height:160px; object-fit:cover;">
+    <h5 class="fw-bold mb-1">Mr Karan Bajaj</h5>
+    <h6 class="text-muted mb-1">Engineering Leader, Platform & Infrastructure Engineering</h6>
+    <p class="text-secondary mb-0">Wisdom Labs AI, USA</p>
+  </div>
+</div>
+
+
       <!-- Speaker 4 -->
-      <div class="col-md-6 col-lg-4">
-        <div class="speaker-card text-center">
-          <h5>Sri Ranjini Arumugam</h5>
-          <h6>Director of Administration</h6>
-          <h7>XEEDQ, Germany</h7>
-          <p>CSE Department</p>
-        </div>
-      </div>
+<div class="col-md-6 col-lg-4">
+  <div class="speaker-card text-center p-4 shadow-sm rounded">
+    <img src="attached_assets/rajini.jpg" 
+         alt="Sri Ranjini Arumugam" 
+         class="img-fluid rounded-circle mb-3"
+         style="width:160px; height:160px; object-fit:cover;">
+    <h5 class="fw-bold mb-1">Dr Sri Ranjini Arumugam</h5>
+    <h6 class="text-muted mb-1">Director of Administration</h6>
+    <p class="text-secondary mb-0">XEEDQ, Germany</p>
+  </div>
+</div>
+
 
       <!-- Speaker 5 -->
-      <div class="col-md-6 col-lg-4">
-        <div class="speaker-card text-center">
-          <h5>Dr Vinayagam Mariappan</h5>
-          <h6>Mistral Solutions</h6>
-          <p>ECE Department</p>
-        </div>
-      </div>
+<div class="col-md-6 col-lg-4">
+  <div class="speaker-card text-center p-4 shadow-sm rounded">
+    <img src="attached_assets/vinayagam.jpg" 
+         alt="Dr Vinayagam Mariappan" 
+         class="img-fluid rounded-circle mb-3"
+         style="width:160px; height:160px; object-fit:cover;">
+    <h5 class="fw-bold mb-1">Dr Vinayagam Mariappan</h5>
+    <h6 class="text-muted mb-1">Senior Architect</h6>
+    <p class="text-secondary mb-0">Mistral Solutions, Bangalore</p>
+  </div>
+</div>
+
        
     <!-- Speaker 6 -->
-      <div class="col-md-6 col-lg-4">
-        <div class="speaker-card text-center">
-          <h5>Mr R Sundara Ganesh</h5>
-          <h6>Head of Manufacturing Medical Devices</h6>
-          <h7>Auro Lab</h7>
-          <p>MECT Department</p>
-        </div>
-      </div>
+<div class="col-md-6 col-lg-4">
+  <div class="speaker-card text-center p-4 shadow-sm rounded">
+    <img src="attached_assets\white.png" 
+         alt="Mr R Sundara Ganesh" 
+         class="img-fluid rounded-circle mb-3"
+         style="width:160px; height:160px; object-fit:cover;">
+    <h5 class="fw-bold mb-1">Mr R Sundara Ganesh</h5>
+    <h6 class="text-muted mb-1">Head of Manufacturing - Medical Devices</h6>
+    <p class="text-secondary mb-0">Auro Lab</p>
+  </div>
+</div>
+
 
       <!-- Speaker 7 -->
-      <div class="col-md-6 col-lg-4">
-        <div class="speaker-card text-center">
-          <h5>Mr Surendhar</h5>
-          <h6>Solution Lead</h6>
-          <h7>Conversight.AI, Coimbatore</h7>
-          <p>AMCS Department</p>
-        </div>
-      </div>
+<div class="col-md-6 col-lg-4">
+  <div class="speaker-card text-center p-4 shadow-sm rounded">
+    <img src="attached_assets/surendhar.jpg" 
+         alt="Mr Surendhar" 
+         class="img-fluid rounded-circle mb-3"
+         style="width:160px; height:160px; object-fit:cover;">
+    <h5 class="fw-bold mb-1">Mr Surendhar</h5>
+    <h6 class="text-muted mb-1">Solution Lead</h6>
+    <p class="text-secondary mb-0">Conversight.AI, Coimbatore</p>
+  </div>
+</div>
 
-      <!-- Speaker 7 -->
-      <div class="col-md-6 col-lg-4">
-        <div class="speaker-card text-center">
-          <h5>Dr Durga Rathinasamy</h5>
-          <h6>Data Leader, Deputy General Manager</h6>
-          <h7>Samsung Electronics (E-Commerce)</h7>
-          <p>AMCS Department</p>
-        </div>
-      </div>
+
+      <!-- Speaker 8 -->
+<div class="col-md-6 col-lg-4">
+  <div class="speaker-card text-center p-4 shadow-sm rounded">
+    <img src="attached_assets/durga.png" 
+         alt="Dr Durga Rathinasamy" 
+         class="img-fluid rounded-circle mb-3"
+         style="width:160px; height:160px; object-fit:cover;">
+    <h5 class="fw-bold mb-1">Dr Durga Rathinasamy</h5>
+    <h6 class="text-muted mb-1">Data Leader, Deputy General Manager</h6>
+    <p class="text-secondary mb-0">Samsung Electronics (E-Commerce)</p>
+  </div>
+</div>
+
+<!-- Speaker 9 -->
+<div class="col-md-6 col-lg-4">
+  <div class="speaker-card text-center p-4 shadow-sm rounded">
+    <img src="attached_assets/vino.png" 
+         alt="Mr Vino John" 
+         class="img-fluid rounded-circle mb-3"
+         style="width:160px; height:160px; object-fit:cover;">
+    <h5 class="fw-bold mb-1">Mr Vino John</h5>
+    <h6 class="text-muted mb-1">CEO & Founder</h6>
+    <p class="text-secondary mb-0">Klymate Technologies LLP, Coimbatore</p>
+  </div>
+</div>
+
+<!-- Speaker 10 -->
+<div class="col-md-6 col-lg-4">
+  <div class="speaker-card text-center p-4 shadow-sm rounded">
+    <img src="attached_assets/ganesh.png" 
+         alt="Er Ganesh Kumar" 
+         class="img-fluid rounded-circle mb-3"
+         style="width:160px; height:160px; object-fit:cover;">
+    <h5 class="fw-bold mb-1">Er Ganesh Kumar</h5>
+    <h6 class="text-muted mb-1">Deputy General Manager, Office of the CTO, Water & Effluent Treatment</h6>
+    <p class="text-secondary mb-0">L&T Construction</p>
+  </div>
+</div>
+
+<!-- Speaker 11 -->
+<div class="col-md-6 col-lg-4">
+  <div class="speaker-card text-center p-4 shadow-sm rounded">
+    <img src="attached_assets/madhavaraj.jpg" 
+         alt="Dr Madhavaraj" 
+         class="img-fluid rounded-circle mb-3"
+         style="width:160px; height:160px; object-fit:cover;">
+    <h5 class="fw-bold mb-1">Dr Madhavaraj</h5>
+    <h6 class="text-muted mb-1">Co-Founder / CTO</h6>
+    <p class="text-secondary mb-0">India Speaks, Chennai</p>
+  </div>
+</div>
+
+<!-- Speaker 12 -->
+<div class="col-md-6 col-lg-4">
+  <div class="speaker-card text-center p-4 shadow-sm rounded">
+    <img src="attached_assets/balaji.png" 
+         alt="Dr Balaji Venkataraman" 
+         class="img-fluid rounded-circle mb-3"
+         style="width:160px; height:160px; object-fit:cover;">
+    <h5 class="fw-bold mb-1">Dr Balaji Venkataraman</h5>
+    <h6 class="text-muted mb-1">President</h6>
+    <p class="text-secondary mb-0">TVS Sensing Solutions Private Limited</p>
+  </div>
+</div>
 
         </div>
       </div>   
@@ -365,7 +458,7 @@
                             <i class="bi bi-calendar-check"></i>
                         </div>
                         <h5>Last date for submission of full paper</h5>
-                        <div class="date-highlight">14/10/2025</div>
+                        <div class="date-highlight">30/11/2025</div>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -374,7 +467,7 @@
                             <i class="bi bi-envelope-check"></i>
                         </div>
                         <h5>Acceptance notification</h5>
-                        <div class="date-highlight">30/11/2025</div>
+                        <div class="date-highlight">05/01/2026</div>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -687,7 +780,7 @@
         <div class="committee-group">
             <h5 class="committee-group-title">Technical Committee</h5>
             <ul class="committee-list">
-                <li><b>Dr. G. Madhupiriya (Dept. of CSE)</b></li>
+                <li><b>Dr. G. Madhupriya (Dept. of CSE)</b></li>
                 <li><b>Dr. R. Jenice Aroma (RF, Dept. of CSE)</b></li>
                 <li>Dr. L. Radha (Librarian)</li>
                 <li>Dr. M. Tamil Elakkiya (Dept. of Physics)</li>
